@@ -1,4 +1,4 @@
-# PowerBi_Project_Contect Strategy_Netflix
+# PowerBi_Project_Content Strategy_Netflix
 Problem Statement
 The goal is to analyze Netflix’s content strategy to understand how various factors like content type, language, 
 release quaterly, and timing affect viewership patterns. By identifying the best-performing content and the timing 
