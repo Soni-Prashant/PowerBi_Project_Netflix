@@ -1,23 +1,43 @@
-# PowerBi_Project_Netflix
+# PowerBi_Project_Contect Strategy_Netflix
 Problem Statement
 The goal is to analyze Netflix’s content strategy to understand how various factors like content type, language, 
-release season, and timing affect viewership patterns. By identifying the best-performing content and the timing 
+release quaterly, and timing affect viewership patterns. By identifying the best-performing content and the timing 
 of its release, the aim is to uncover insights into how Netflix maximizes audience engagement throughout the year.
+# Content Strategy Analysis:
+It means analyzing how content is created, released, distributed, and consumed to achieve specific goals, such as maximizing audience engagement, or viewership (Hours).
 
-Content Strategy Analysis means analyzing how content is created, released, distributed, and consumed to achieve specific goals, such as maximizing audience engagement, viewership, brand reach, or revenue.
+# Contect Strategy using MS Power BI Getting Started: 
+# Step 1: Cleaning and preprocessing the the data
+   - Finding Duplicates
+   - Data Type Correction
+   - Handling NULL Values
+# Step 2: Visualization :
 
-1. Cleaning and preprocessing the “Hours Viewed” column
-2. Let’s visualize the distribution of total viewership hours between Shows and Movies:
-3. Next, let’s analyze the distribution of viewership across different languages to understand which languages are contributing the most to Netflix’s content consumption:
-4. Next, I’ll analyze how viewership varies based on release dates to identify any trends over time, such as seasonality or patterns around specific months:
-5. To delve deeper, we can analyze the most successful content (both shows and movies) and understand the specific characteristics, such as genre or theme, that may have contributed to high viewership:
-6. The top 5 most-viewed titles on Netflix in 2023 are:
-7. let’s have a look at the viewership trends by content type: (The graph compares viewership trends between movies and shows throughout 2023.)
-8. Now, let’s explore the total viewership hours distributed across different release seasons:
-9. Now, let’s analyze the number of content releases and their viewership hours across months:
-10. Next, let’s explore whether Netflix has a preference for releasing content on specific weekdays and how this influences viewership patterns:
+* Visualizing the distribution of total viewership hours between Shows and Movies:
 
-11. Conclusion
-So, the content strategy of Netflix revolves around maximizing viewership through targeted release timing and content variety. Shows consistently outperform movies in viewership, with significant spikes in December and June, indicating strategic releases around these periods. The Fall season stands out as the peak time for audience engagement. Most content is released on Fridays, which aims to capture viewers right before the weekend, and viewership aligns strongly with this release pattern. While the number of releases is steady throughout the year, viewership varies, which suggests a focus on high-impact titles and optimal release timing over sheer volume.
+![Total Hours Viewed Based Content type](https://github.com/user-attachments/assets/ea7e0135-dd6d-40d9-997b-98a47e47269f)
+ 
+* Analyzing the distribution of viewership across different languages to understand which languages are contributing the most to Netflix’s content consumption:
+   
+![Total Hours Based on Language](https://github.com/user-attachments/assets/0cb25c07-0eb1-4512-8772-ff46b8684071)
 
-I hope you liked this article on Netflix Content Strategy Analysis with Python. Feel free to ask valuable questions in the comments section below. You can follow me on Instagram for many more resources.
+* Analyze how viewership varies based on release dates to identify any trends over time, such as seasonality or patterns around specific months:
+![Total Hours Based on Month](https://github.com/user-attachments/assets/3524ec8c-bd2d-4f29-b820-8eaa2f5073da)
+
+* To get deeper insights, we can analyze the most successful content (both shows and movies) and understand the specific characteristics, such as genre or theme, that may have contributed to high viewership:
+![Total Hours Based on content type](https://github.com/user-attachments/assets/39c9a825-699b-48b6-a2d7-5b6303ced563)
+
+* The top 5 most-viewed titles on Netflix in 2023 are:
+
+![Top 5 titles](https://github.com/user-attachments/assets/d8be0510-eb5e-4e4b-81ad-6e387dfc7a82)
+
+* Now have a look at the viewership trends by content type: (The graph compares viewership trends between movies and shows throughout 2023.)
+
+![Total Hours Based on Quaterly](https://github.com/user-attachments/assets/40e0c96f-2a8c-4874-8a74-1490fc363131)
+
+* Now, let’s analyze the number of content releases and their viewership hours across months:
+![Availability count Monthly](https://github.com/user-attachments/assets/35383c55-47d3-4ced-854a-4a5a6e044740)
+
+
+# Conclusion
+So, the content strategy of Netflix revolves around maximizing viewership through targeted release timing and content variety. Shows consistently outperform movies in viewership, with significant spikes in December and June, indicating strategic releases around these periods.
